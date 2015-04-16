@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Sales Manager.exe" version="1.0.0.1" publicKeyToken="70de5446200d7ae5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Sales Manager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Sales Manager.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sales Manager.exe" size="380416">
+      <assemblyIdentity name="Sales Manager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Tuk4TjOypE7DDEYIltKSTiDeugyPVSgToO26a3QsJgQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Sales Manager.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Virgo\Virgo248" issuerKeyHash="d8fb0759d7326bab091eaa0b0b69a9e740d0bc22" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>D45j+imwd8ijRKLePQbLNSP0FOMt8sY2m24X5/pP4lA=</DigestValue></Reference></SignedInfo><SignatureValue>NKLueB0VZT1PZJnf8czOYvT1nYpvvkTBSerJNjb3z1rIVvbveyWJqyK7hE49TqOLGnMMmhW2vWl4wQiEAzsbvEr0QpN6DY2u58ckb0C4aidf2ElPTQ8Wev6D/up4ZcjnDXUIiQooHp856p9iwixBNIcVcJYJjc2rhkG0i2yrnpk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>l1jRF9FTzFMia2yHCyuQjV1orBxr7I5gLyyvE1W2tVlJKsmEVmPNvTmoYwGg3Oyvi87YFoG9eXOZ5FSUaFs61quvIgCNqGxSfkpBLjugAHXGoLSlWs8zHIgjINt/YJ7ZXzFGwGIZjGXz9s098yOGK0zWa3wTOzHK1JbrqD+2Ue8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="50e24ffae7176e9b36c6f22de314f42335cb063ddea244a3c877b029fa638e0f" Description="" Url=""><as:assemblyIdentity name="Sales Manager.exe" version="1.0.0.1" publicKeyToken="70de5446200d7ae5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Virgo\Virgo248</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dklIEQZuwVe30kbNPUpDY9PptdCt70v59dIalzaVC2E=</DigestValue></Reference></SignedInfo><SignatureValue>COpdvbqfvDkx0cN2H35RbjqHZb2Y4gXcMN6fl1AO7rg9HGWcMFwgsrUrJcu1EkodO7Z676lmwRNyY/HefpIxLLM7ye3nUmP2G9ROBcHFheWldVlGl/VHSZOW+U9cILac0kkWeGUy9Gl9VJnZ6ziBCNVwrYlqjvHxwQCxE1ZxfLw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>l1jRF9FTzFMia2yHCyuQjV1orBxr7I5gLyyvE1W2tVlJKsmEVmPNvTmoYwGg3Oyvi87YFoG9eXOZ5FSUaFs61quvIgCNqGxSfkpBLjugAHXGoLSlWs8zHIgjINt/YJ7ZXzFGwGIZjGXz9s098yOGK0zWa3wTOzHK1JbrqD+2Ue8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQOCE5cnmVZatMeERv0HEYgjANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAVgBpAHIAZwBvAFwAVgBpAHIAZwBvADIANAA4MB4XDTE1MDQxMTEwMzczOVoXDTE2MDQxMDE2MzczOVowJzElMCMGA1UEAx4cAFYAaQByAGcAbwBcAFYAaQByAGcAbwAyADQAODCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAl1jRF9FTzFMia2yHCyuQjV1orBxr7I5gLyyvE1W2tVlJKsmEVmPNvTmoYwGg3Oyvi87YFoG9eXOZ5FSUaFs61quvIgCNqGxSfkpBLjugAHXGoLSlWs8zHIgjINt/YJ7ZXzFGwGIZjGXz9s098yOGK0zWa3wTOzHK1JbrqD+2Ue8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBPRyn60ZZletgfUiDxnjue8qeDT9fdqAXQ6/3lKFcTHg8HjJgJ6L2FtaCv3Q+tudnyk5bPxP4MtqPualNf49ZoaNjB9LcI8rGmUtx04LpaeEo8DM42rmT6YR57zK90egjyPCcKbglDhr/Oz4TIApC8dcv8GLryu0KEKSYNwOwyTg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
